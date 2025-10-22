@@ -1,5 +1,4 @@
 
-```markdown
 # 🧠 MPC-BEV — Model Predictive Control for Path Tracking with Battery-Electric Vehicle Dynamics
 
 A complete Python simulation of **Model Predictive Control (MPC)** for autonomous path tracking, extended with a simplified **Battery Electric Vehicle (BEV)** model.  
