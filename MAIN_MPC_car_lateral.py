@@ -1,21 +1,57 @@
 '''
-LICENSE AGREEMENT
+**LICENSE AGREEMENT***
+In relation to this Python file and all associated scripts, documentation, and derivative works (collectively referred to as “the Software”):
 
-In relation to this Python file:
+1. **Authorship and Adaptation Notice**
+   This Python file was **adapted and modified by Ahmad**, based on the original work authored by **Mark Misin**.
+   The adaptations may include modifications to variable names, structure, comments, formatting, algorithms, and/or visual components for educational, developmental, or analytical purposes.
+   While the core concept may have been derived from Mark Misin’s original implementation, the present version represents a **revised and extended adaptation** created by Ahmad.
 
-1. Copyright of this Python file is owned by the author: Mark Misin
-2. This Python code can be freely used and distributed
-3. The copyright label in this Python file such as
+2. **Copyright and Ownership**
+   The intellectual property rights for the **adapted version** of this Python file are held by **Ahmad**, while the **original intellectual credit** remains with **Mark Misin** for his foundational contribution.
+   Both authorship acknowledgments — for the original creator and the adapter — must be maintained in all subsequent distributions.
 
-copyright=ax_main.text(x,y,'© Mark Misin Engineering',size=z)
-that indicate that the Copyright is owned by Mark Misin MUST NOT be removed.
+3. **Permission and Redistribution**
+   This Software may be **freely used, copied, modified, and redistributed**, provided that:
 
-WARRANTY DISCLAIMER!
+   * Proper credit is given to both **Mark Misin (original author)** and **Ahmad (adapter)**.
+   * This License Agreement accompanies all copies or substantial portions of the Software.
+   * The adapted code is **not sold or sublicensed for commercial gain** without explicit written consent from the respective authors.
 
-This Python file comes with absolutely NO WARRANTY! In no event can the author
-of this Python file be held responsible for whatever happens in relation to this Python file.
-For example, if there is a bug in the code and because of that a project, invention,
-or anything else it was used for fails - the author is NOT RESPONSIBLE!
+4. **Attribution Requirement**
+   Any copyright label or authorship note in the code, such as:
+
+   ```python
+   copyright = ax_main.text(
+       x, y, '© Ahmad (Adapted from Mark Misin Engineering)', size = z
+   )
+   ```
+
+   or any equivalent form that reflects this adaptation, **must not be removed, replaced, or altered**.
+   This ensures ongoing recognition of both contributors and transparency regarding the Software’s lineage.
+
+5. **Derivative Works and Contributions**
+   Users may further modify, extend, or improve upon this version of the Software. However, all derivative versions must:
+
+   * Retain clear attribution to both **Mark Misin** and **Ahmad**,
+   * Include this License Agreement in full,
+   * And clearly describe any additional changes introduced by subsequent authors.
+
+---
+
+### **WARRANTY DISCLAIMER**
+
+This Software is provided **“as is”**, without any express or implied warranty of any kind.
+Neither the original author (**Mark Misin**) nor the adapter (**Ahmad**) shall be held liable for any damages, losses, or consequences arising from the use, misuse, or inability to use this Software.
+
+This includes but is not limited to:
+
+* Errors or bugs that may cause system malfunctions or data loss,
+* Financial or operational losses resulting from project failure,
+* Any incidental, indirect, or consequential damages of any nature.
+
+Users assume **full responsibility and risk** for using this Software.
+By utilizing or modifying this file, you acknowledge that it is distributed solely for **educational and developmental purposes**, and that **no guarantee of performance, accuracy, or fitness for a particular purpose** is provided by either contributor.
 
 '''
 
