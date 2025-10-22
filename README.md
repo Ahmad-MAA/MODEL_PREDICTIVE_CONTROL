@@ -157,5 +157,5 @@ Renewable Energy & Control Systems Engineer
 
 Enjoy exploring the synergy between **control systems**, **vehicle dynamics**, and **energy management** ⚡🚘
 
-```
+
 
