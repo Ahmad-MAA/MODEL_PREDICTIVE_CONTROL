@@ -1,0 +1,34 @@
+# ==============================================================
+# pyproject.toml — Build & install config for MPC-BEV Simulation
+# ==============================================================
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mpc_bev_sim"
+version = "1.0.0"
+description = "MPC path-tracking simulator with Battery Electric Vehicle (BEV) dynamics"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Ahmad Abubakar Musa", email = "ahmad@example.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+  "numpy>=1.20",
+  "matplotlib>=3.3"
+]
+
+[project.scripts]
+# After `pip install -e .`, this creates a shell command `mpc-bev-demo`
+# that calls the `main()` function in main_mpc_car.py
+mpc-bev-demo = "mpc_bev_sim.main_mpc_car:main"
+
+[tool.setuptools]
+packages = ["mpc_bev_sim"]
+
+# Treat the repository root as the package directory
+[tool.setuptools.package-dir]
+mpc_bev_sim = "."
